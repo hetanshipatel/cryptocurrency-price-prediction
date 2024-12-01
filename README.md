@@ -15,6 +15,15 @@ The goal of this project is to evaluate and compare three machine learning model
 - **Evaluation Metrics**: RMSE, MSE, MAE, and R² for model performance evaluation.
 - **Best Performing Model**: Random Forest Regressor showed the best accuracy with the lowest RMSE for both Bitcoin and Ethereum.
 
+## File Descriptions
 
+### `data/`
+- **BTC-GBP.csv**: Contains historical Bitcoin price data in GBP.
+- **ETH-GBP.csv**: Contains historical Ethereum price data in GBP.
 
+### `notebooks/`
+- **Final_Code.ipynb**: Jupyter notebook containing the code for data preprocessing, model training (LSTM, Bi-LSTM, Random Forest), and evaluation. This file is intended to be run on Google Colab.
+
+### `reports/`
+- **Final Project by Hetanshi Patel.pdf**: The final project report, including the methodology, results, and analysis.
 
